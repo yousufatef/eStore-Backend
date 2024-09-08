@@ -1,4 +1,7 @@
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://e-store-ts9h.vercel.app/",
+];
 
 const corsOptions = {
   origin: (origin, callback) => {
